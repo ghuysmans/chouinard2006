@@ -1,0 +1,20 @@
+label b {
+	text-decoration: dashed underline;
+}
+label input {
+	display: none;
+}
+input:not(:checked) ~ span {
+	display: none;
+}
+input ~ span {
+	display: block;
+	color: grey;
+}
+
+table {
+	border-collapse: collapse;
+}
+table.q td {
+	border-bottom: 1px solid black;
+}
