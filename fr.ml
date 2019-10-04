@@ -31,13 +31,15 @@ let questions = [
   "Une gestion de classe efficace passe parfois par la punition sévère des comportements inadéquats.";
 ]
 
-let answers = [
-  "Fortement en désaccord";
-  "En désaccord";
-  "Neutre";
-  "D'accord";
-  "Fortement en accord";
-]
+let answers =
+  [
+    "Fortement en désaccord";
+    "En désaccord";
+    "Neutre";
+    "D'accord";
+    "Fortement en accord";
+  ] |>
+  List.mapi (fun i t -> Printf.sprintf "%d - %s" (i + 1) t)
 
 let classes = [
   "Autorité", "Les enseignantes et les enseignants qui gèrent leur classe principalement à partir d’un système de règles et de procédures qu’ils ont eux-mêmes définies s’inscrivent dans un patron d’autorité. Les tenants de cette façon de faire considèrent généralement que leur rôle consiste principalement à contrôler le comportement des élèves en organisant et en régulant les relations sociales qui sont établies en classe. Dès lors, l’élaboration et l’instauration d’un code vie efficace sont une priorité pour ces derniers.";
