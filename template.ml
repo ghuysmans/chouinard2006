@@ -71,6 +71,6 @@ let app questions answers f =
     (* TODO button, hidden results... *)
     h2 [txt "Résultats"];
     r;
-    p [txt "Votre profil indique quelles sont les composantes prédominantes de votre style degestion de classe. Vous pouvez aussi comparer vos résultats avec ceux de collègues et, ainsi, mieux connaître vos caractéristiques personnelles."];
+    p [txt "Votre profil indique quelles sont les composantes prédominantes de votre style de gestion de classe. Vous pouvez aussi comparer vos résultats avec ceux de collègues et, ainsi, mieux connaître vos caractéristiques personnelles."];
     p [txt "Cela dit, les opérations de validation de ce questionnaire n’étant pas encore tout à fait terminées, il est conseillé d’être prudent dans l’interprétation de vos résultats."];
   ]
