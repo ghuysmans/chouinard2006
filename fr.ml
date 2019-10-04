@@ -3,7 +3,7 @@
 let questions = [
   "Un des principaux rôles de l’enseignant ou de l’enseignante est de maintenir l’ordre et la discipline dans sa classe, et ce, en contrôlant personnellement le comportement de ses élèves.";
   "Récompenser les élèves méritants ou leur donner du renforcement est une excellente façon de gérer sa classe.";
-  "En gestion de classe,la tâche principale de l’enseignant(e) consiste à aider les élèves à comprendre et à respecter les règles choisies par le groupe.";
+  "En gestion de classe, la tâche principale de l’enseignant(e) consiste à aider les élèves à comprendre et à respecter les règles choisies par le groupe.";
   "L’utilisation d’activités d’apprentissage appropriées encourage habituellement les élèves à bien se comporter parce que cela diminue l’ennui et la frustration.";
   "La menace de la punition et la punition peuvent être très efficaces lorsqu’elles sont bien utilisées.";
   "En ce qui concerne le comportement des élèves, il est préférable de leur imposer le moins de limites possible afin de leur permettre de développer tout leur potentiel et leur autonomie.";
@@ -22,7 +22,7 @@ let questions = [
   "Une gestion de classe efficace passe parfois par le recours à la coercition.";
   "En gestion de classe, il est préférable d’être un peu trop permissif qu’un peu trop « contrôlant ».";
   "La qualité de la gestion de classe se mesure avant tout par la nature des relations entre les élèves et l’enseignant ou l’enseignante.";
-  "Une gestion de class efficace passe par l’établissement et le maintien du contrôle de la classe à l’aide d’un code de vie élaboré par l’enseignant ou l’enseignante.";
+  "Une gestion de classe efficace passe par l’établissement et le maintien du contrôle de la classe à l’aide d’un code de vie élaboré par l’enseignant ou l’enseignante.";
   "En gestion de classe, il est primordial de savoir récompenser et appliquer
   des conséquences.";
   "Une gestion de classe efficace a pour but principal d’aider le groupe à devenir capable de régler lui-même plusieurs de ses problèmes.";
