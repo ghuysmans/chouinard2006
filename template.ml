@@ -65,12 +65,12 @@ let app questions answers f =
   let r = results (f s) in
   let open Html in
   div [
-    h2 [txt "Questionnaire"];
-    p [txt "Indiquez votre degré d’accord à chacun des énoncés :"];
+    h2 [txt Fr.title];
+    p [txt Fr.instructions];
     t;
     (* TODO button, hidden results... *)
-    h2 [txt "Résultats"];
+    h2 [txt Fr.results];
     r;
-    p [txt "Votre profil indique quelles sont les composantes prédominantes de votre style de gestion de classe. Vous pouvez aussi comparer vos résultats avec ceux de collègues et, ainsi, mieux connaître vos caractéristiques personnelles."];
-    p [txt "Cela dit, les opérations de validation de ce questionnaire n’étant pas encore tout à fait terminées, il est conseillé d’être prudent dans l’interprétation de vos résultats."];
+    p [txt Fr.conclusion];
+    p [txt Fr.warning];
   ]
